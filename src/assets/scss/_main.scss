@@ -1,0 +1,73 @@
+html {
+	scroll-behavior: smooth;
+}
+
+a, button{
+	
+    transition: .3s ease-in;
+	 transition-property: color, background-color, opacity;
+	 
+
+    svg{
+        fill:currentColor;
+	 }
+	 
+}
+button, .button{
+    cursor: pointer;
+}
+.ba-button-learn, .ba-button-view {
+	display: inline-block;
+		color: #7d7a7c;
+		font-family: $header-font-family;
+		font-size: 20px;
+		font-style: italic;
+		border: 1px solid #7d7a7c;
+		 height: 50px;
+		 line-height: 50px;
+		 padding: 0 52px;
+		 margin-left: -80px;
+ }
+ .ba-button-view {
+	 border: 1px solid $white;
+	 color: $white;
+	 margin-top: 100px; 
+	 background: transparent;
+	 :hover {
+		 background: #EBEBEB;
+		 color: #665f60;
+	 }
+ }
+ .ba-button-learn {
+	 background: #EBEBEB;
+	 :hover {
+		 background: #665f60;
+		 color:#EBEBEB;
+	 }
+ }
+
+.ba-section {
+	
+	&--title {
+		padding: 402px 0 486px;
+		background: url(../img/first-bg.jpg) no-repeat 50%;
+		background-size: cover;
+
+	}
+	&--about {
+		padding: 111px 0 92px;
+	}
+
+	&--recent {
+		padding: 49px 0 60px;
+		background: url(../img/recent-works.jpg) no-repeat 50%;
+		background-size: cover;
+	}
+	&--team {
+		padding: 53px 0 98px;
+	}
+	&--map {
+		position: relative;
+		z-index: 1;
+	}
+}

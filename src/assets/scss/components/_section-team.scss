@@ -1,0 +1,28 @@
+.ba-team-slide {
+	outline: none;
+	img {
+		margin: 0 auto;
+	}
+}
+.ba-team-slider .slick-dots {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: -380px;
+	transform: rotate(90deg);
+	color: $primary-color;
+	list-style-type: circle;
+
+	button {
+		display: none;
+	}
+}
+.ba-team-slider .slick-active {
+	list-style-type: disc;
+}
+
+.ba-section-title {
+	h2 {
+		color: #665f60;
+	}
+}

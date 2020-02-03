@@ -1,0 +1,38 @@
+.ba-section-title {
+	h2 {
+		font-family: $extra-font-family;
+		font-weight: 400;
+		color: #fefcfd;
+		margin-top: 36px;
+		margin-bottom: 68px;
+	}
+}
+.ba-slider {
+	position: relative;
+	
+}
+.ba-slide {
+	outline: none;
+	img {
+		margin: 0 auto;
+	}
+}
+.ba-slider .slick-dots {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: -700px;
+	transform: rotate(90deg);
+	color: $white;
+	list-style-type: circle;
+
+	button {
+		display: none;
+	}
+	@media screen and (max-width:640px){
+		bottom: -340px;
+	}
+}
+.ba-slider .slick-active {
+	list-style-type: disc;
+}

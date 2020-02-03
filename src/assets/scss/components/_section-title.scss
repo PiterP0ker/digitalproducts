@@ -1,0 +1,20 @@
+.ba-wrap {
+	color: #fefefb;
+	letter-spacing: 1.9px;
+
+	&__title {
+		text-transform: uppercase;
+		font-family: $extra-font-family;
+		font-size: 72px;
+		font-weight: 700;
+		line-height: 60.22px;
+		
+	}
+	&__subtitle {
+		font-style: italic;
+		font-size: 30px;
+		font-family: $header-font-family;
+		line-height: 1.4;
+		
+	}
+}

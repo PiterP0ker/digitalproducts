@@ -1,0 +1,48 @@
+.ba-section-title {
+	&--map {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		z-index: 2;
+		left: calc(50% - 120px);
+		top: 56px;
+	}
+}
+.ba-map-form {
+	position: absolute;
+	top: 50%;
+
+	&__box {
+		display: flex;
+		@media screen and (max-width:640px){
+		flex-direction: column;
+		}
+		input {
+			min-width: 400px;
+			@media screen and (max-width:640px){
+				min-width: 300px;
+			}
+		}
+		input + input {
+			margin-left: 32px;
+			@media screen and (max-width:640px){
+				margin-left: 0;
+			}
+		}
+	}
+	@media screen and (max-width:640px){
+		top: 30%;
+	}
+}
+.ba-map-button {
+	padding: 0 68px;
+	line-height: 70px;
+	height: 70px;
+	background: $primary-color;
+	color: #fff;
+	
+	:hover {
+		background:#6E66B6;
+	}
+}

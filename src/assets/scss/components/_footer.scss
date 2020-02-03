@@ -1,0 +1,21 @@
+.ba-footer-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ba-footer{
+	 background: #9F9ACF;
+	 padding: 85px 0;
+}
+.ba-copyright{
+}
+.ba-socials {
+	a {
+		background: $white;
+		border-radius: 50%;
+
+	}
+	a+a {
+		margin-left: 10px;
+	}
+}
